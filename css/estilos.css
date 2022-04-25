@@ -270,4 +270,66 @@
     background-size:cover;
     background-position: center;
 }
+/* -----------------------------------Contactos-------------------------- */
 
+form{
+
+    background-image: url(../img/paper-g7291b03f0_1280.jpg);
+    background-size:cover;
+    background-position: center;
+
+}
+
+.forC{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    
+}
+
+.forC label {
+
+    
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.forC input{
+
+    
+    width: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.forC textarea{
+
+    width: 15%;
+    
+}
+
+form h2{
+
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.mapa{
+
+    background-image: url(../img/compass-g6efc03599_1920.jpg);
+    background-size:cover;
+    background-position: center;
+    text-align: center; 
+}
+
+.mapa h2{
+
+    font-size: 35px;
+    text-align: center;
+
+}
