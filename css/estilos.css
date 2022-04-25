@@ -69,8 +69,17 @@
     background-image: url(../img/animals-g0623d955c_1920.jpg);
     background-size:cover;
     background-position: center;
+
+    transition: all 2s;
+    
     
 
+}
+
+.g1:hover{
+
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
 }
 
 .g2{
@@ -78,7 +87,16 @@
     grid-area: sec;
     background-color: rgba(172, 172, 172, 0.712);
     overflow: auto;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
 
+
+}
+
+.g2:hover{
+
+    -webkit-transform: perspective(150px) rotateX(25deg);
+    transform: perspective(150px) rotateX(25deg);
 }
 
 .g2 h2{
@@ -105,6 +123,15 @@
     background-size:cover;
     background-position: center;
     
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.g3:hover{
+
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
 }
 
 .g4{
@@ -114,6 +141,14 @@
     background-size:cover;
     background-position: center;
 
+    transition: 1s linear;
+
+}
+
+.g4:hover{
+
+    -webkit-transform: matrix(0.5, 0.1, 0.5,1,10, -2);
+    transform: matrix(0.5, 0.1, 0.5, 1, 10, -2);
 }
 
 /* ----------------------------------Footer-------------------------------------------------------- */
@@ -148,12 +183,17 @@
 
     color: black;
 
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
 }
 
 .logos:hover{
     
     color: rgba(25, 25, 221, 0.863); 
-    
+    -webkit-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+   
 }
 
 /* ----------------------------------Nosotros-------------------------------------------------------- */
@@ -182,6 +222,8 @@
     /* background-color: aqua; */
     border: 5px solid rgb(255, 255, 255);
     overflow: auto;
+
+    
 }
 
 .div1 h2{
@@ -190,6 +232,8 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(11, 95, 95);
     text-align: center;
+    
+    
 }
 
 .div1 p{
@@ -197,7 +241,7 @@
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-
+    
 }
 
 .div2{
@@ -209,6 +253,15 @@
     background-image: url(../img/animal-g57e6f7004_1920.jpg);
     background-size:cover;
     background-position: center;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.div2:hover{
+
+    -webkit-transform: translate(10%);
+    transform: translate(10%);
 }
 
 .div3{
@@ -219,6 +272,14 @@
     background-image: url(../img/no_al_maltrato_animal.jpg);
     background-size:contain;
     /* background-position: center; */
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.div3:hover{
+-webkit-transform: translate(10%);
+transform: translate(10%);
 }
 
 .div4{
@@ -231,6 +292,16 @@
     background-image: url(../img/film-ge0863dbc4_1280.jpg);
     background-size:cover;
     background-position: center;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+
+.div4:hover{
+
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+
 }
 
 .div5{
@@ -240,7 +311,18 @@
     border: 5px solid rgb(255, 255, 255);
     overflow: auto;
 
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
 }
+
+.div5:hover{
+
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+
+}
+
 
 .div5 h2{
 
@@ -269,7 +351,19 @@
     background-image: url(../img/kittens-3535404_960_720.jpg);
     background-size:cover;
     background-position: center;
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
 }
+
+.div6:hover{
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+}
+
 /* -----------------------------------Contactos-------------------------- */
 
 form{
@@ -324,7 +418,25 @@ form h2{
     background-image: url(../img/compass-g6efc03599_1920.jpg);
     background-size:cover;
     background-position: center;
-    text-align: center; 
+    text-align: center;
+    
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+    
+}
+
+.mapa{
+
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+
+}
+
+.mapa iframe:hover{
+
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
 }
 
 .mapa h2{
